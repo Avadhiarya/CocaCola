@@ -11,5 +11,5 @@ A modern and responsive landing page for Coca-Cola, created using HTML and CSS.
 
 ### Home Page
 ![Home Page](./home%20page.png)
-
+![Footer Page](./footer.png)
 
