@@ -165,49 +165,46 @@ iframe {
 }
 .footer {
     background-color: #1a1a1a;
+    color: #ffffff;
     padding: 40px 20px;
 }
-
 .footer-content {
-    display: flex;
-    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 .footer-section {
     flex: 1;
-    margin-right: 20px;
+    min-width: 200px;
+    margin-bottom: 20px;
 }
-
 .footer-section h3 {
-    color: #ffffff;
+    color: #ff0000;
+    text-shadow: 
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
     font-size: 18px;
     margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #ff0066;
-    display: inline-block;
 }
-
 .footer-section ul {
     list-style-type: none;
     padding: 0;
 }
-
 .footer-section ul li {
     margin-bottom: 10px;
 }
-
 .footer-section ul li a {
     color: #cccccc;
     text-decoration: none;
     font-size: 14px;
 }
-
 .footer-section ul li a:hover {
     color: #ffffff;
 }
-
 .social-icons {
     display: flex;
     gap: 10px;
@@ -226,5 +223,15 @@ iframe {
 }
 
 .social-icons a:hover {
-    background-color: #ff0066;
+    background-color: #ff0000;
+}
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+.footer-bottom p {
+    font-size: 12px;
+    color: #888;
 }
